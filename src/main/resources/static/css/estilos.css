@@ -5,7 +5,14 @@
     Author     : edra0
 */
 
-body {
+
+.nav-link.dropdown-toggle {
+    color: red; /* Cambia el color del texto */
+    margin-left: 20px; /* Mueve el enlace hacia la derecha */
+}
+
+
+/*body {
     background-color: blanchedalmond;
     font-family: sans-serif;
     margin: 0;
@@ -99,5 +106,5 @@ footer {
 
 .nav-menu-link:hover{
     background-color: blue;
-}
+}*/
 
