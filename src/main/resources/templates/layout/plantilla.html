@@ -19,9 +19,9 @@
     <body>
 
         <header th:fragment="header" class="header">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-black p-0">
                 <div class="container">
-                    <a th:href="@{/}" class="navbar-brand">[[#{aplicacion.titulo}]]</a>
+                    <a th:href="@{/}" class="navbar-brand ">[[#{aplicacion.titulo}]]</a>
                     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -58,14 +58,17 @@
                     </div>
                 </div>
             </nav>
-            <section id="main-header" class="py-2 bg-success text-black">
+            <section id="main-header" class="py-2 bg-dark text-black ">
+      
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-1 ">
+                            
                             <h1> <i class="fa-solid fa-burger fa-lg "></i> [[#{plantilla.suTienda}]]</h1>
                         </div>
                     </div>
                 </div>
+            
             </section>
         </header>
         <footer th:fragment="footer" class="bg-white text-black mt-5 p-2 text-center">
