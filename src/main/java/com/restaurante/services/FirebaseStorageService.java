@@ -11,15 +11,15 @@ public interface FirebaseStorageService {
     public String cargaImagen(MultipartFile archivoLocalCliente, String carpeta, Long id);
 
     //El BuketName es el <id_del_proyecto> + ".appspot.com"
-    final String BucketName = "restaurantep.appspot.com";
+    final String BucketName = "pamonchar-c33fd.appspot.com";
 
     //Esta es la ruta básica de este proyecto Techshop
-    final String rutaSuperiorStorage = "restaurante";
+    final String rutaSuperiorStorage = "proyecto";
 
     //Ubicación donde se encuentra el archivo de configuración Json
     final String rutaJsonFile = "firebase";
     
     //El nombre del archivo Json
-    final String archivoJsonFile = "restaurantep-2328a-firebase-adminsdk-ocsv9-175380a7f6.json";
+    final String archivoJsonFile = "";
 }
 //hola 
